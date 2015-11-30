@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src -d lib",
-    "prepublish": "npm run clean && npm run build",
+    "generate-changelog": "grunt git_changelog",
+    "prepublish": "npm run clean && npm run build && npm run generate-changelog",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -30,6 +31,9 @@
     "eslint": "^1.10.2",
     "eslint-config-airbnb": "^1.0.2",
     "eslint-plugin-react": "^3.11.1",
+    "git-changelog": "^0.1.8",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
     "rimraf": "^2.4.4"
   },
   "dependencies": {
