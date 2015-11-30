@@ -7,7 +7,7 @@ class StackoverflowProfile extends React.Component {
     this.state = {
       id: props.id,
       profile_image: ''
-    }
+    };
   }
   componentDidMount() {
     axios.get(`https://api.stackexchange.com/2.2/users/${this.props.id}`, {
@@ -23,7 +23,7 @@ class StackoverflowProfile extends React.Component {
   render() {
     return (
       <img src={this.state.profile_image} />
-    )
+    );
   }
 }
 
