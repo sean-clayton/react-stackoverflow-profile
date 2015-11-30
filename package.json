@@ -8,7 +8,7 @@
     "build": "babel src -d lib",
     "generate-changelog": "grunt git_changelog",
     "prepublish": "npm run clean && npm run build && npm run generate-changelog",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint src/**"
   },
   "keywords": [
     "react",
