@@ -20,3 +20,13 @@ import StackoverflowProfile from 'react-stackoverflow-profile';
 | Option | Default Value | Required |
 |--------|---------------|----------|
 | `id` | `undefined` | **true** |
+
+## Useful Links
+
+- [Changelog]
+- [Contribution Guidelines]
+- [Authors]
+
+[Changelog]: /CHANGELOG.md
+[Contribution Guidelines]: /CONTRIBUTING.md
+[Authors]: /AUTHORS
