@@ -11,16 +11,36 @@ _A React component that displays a Stack Overflow profile card_
 
 ## Installation
 
-`npm install --save react-stackoverflow-profile`
+### [npmcdn](https://npmcdn.com)
+
+```html
+<script src="https://npmcdn.com/react-stackoverflow-profile"></script>
+```
+
+### npm
+
+```bash
+npm install --save react-stackoverflow-profile
+```
 
 ## Usage
+
+### Node.js
+
+```js
+const StackoverflowProfile = require('react-stackoverflow-profile')
+```
+
+### ES6
 
 ```js
 import StackoverflowProfile from 'react-stackoverflow-profile';
 ```
 
+### JSX
+
 ```html
-<StackoverflowProfile id="1" />
+<StackoverflowProfile id="1" /> <!-- Insert whatever id you want! -->
 ```
 
 ## API
