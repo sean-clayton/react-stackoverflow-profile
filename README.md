@@ -17,9 +17,9 @@ import StackoverflowProfile from 'react-stackoverflow-profile';
 
 ## API
 
-| Option | Default Value | Required |
-|--------|---------------|----------|
-| `id` | `undefined` | **true** |
+| Option | Default Value | Required | Description |
+|--------|---------------|----------| ----------- |
+| `id` | `undefined` | **true** | Stack Overflow ID. Found in URL |
 
 ## Useful Links
 
