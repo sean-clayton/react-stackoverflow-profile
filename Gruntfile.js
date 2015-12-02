@@ -1,5 +1,3 @@
-/*eslint-disable */
-
 const grunt = require('grunt');
 
 grunt.initConfig({
