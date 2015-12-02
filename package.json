@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "A React component that displays a Stack Overflow profile card",
   "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "build": "babel src -d lib",
@@ -10,15 +11,21 @@
     "prepublish": "npm run clean && npm run build && npm run generate-changelog",
     "test": "eslint src/**"
   },
+  "engines" : {
+    "node": "~4.2.0 || ^5.0.0",
+    "npm": "^3.0.0"
+  },
+  "author": {
+    "name": "Sean-Patrick Ortencio Clayton",
+    "email": "sean@seanclayton.me",
+    "url": "https://seanclayton.me"
+  },
   "keywords": [
     "react",
     "stackoverflow"
   ],
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sean-clayton/react-stackoverflow-profile"
-  },
+  "repository": "sean-clayton/react-stackoverflow-profile",
   "bugs": {
     "url": "https://github.com/sean-clayton/react-stackoverflow-profile/issues"
   },
