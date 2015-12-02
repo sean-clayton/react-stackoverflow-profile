@@ -1,15 +1,16 @@
 __React Stack Overflow Profile__
 
-#   (2015-11-30)
+#   (2015-12-02)
 
 
 
 ---
 
-## Features
+## Documentation
 
-- **output:** Output user profile image
-  ([4ecc2ced](https://github.com/sean-clayton/react-stackoverflow-profile/commit/4ecc2cedafc73c0c6a22e23a452a8c12636939a9))
+- **README:**
+  - Added useful links [ci skip]
+  - Added installation, usage, and API instructions [ci skip]
 
 
 
