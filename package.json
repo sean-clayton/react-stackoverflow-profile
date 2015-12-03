@@ -10,9 +10,8 @@
     "build:lib": "babel src -d lib",
     "build:umd": "webpack src/index.js dist/react-stackoverflow-profile.js --config webpack.config.development.js",
     "build:umd:min": "webpack src/index.js dist/react-stackoverflow-profile.min.js --config webpack.config.production.js",
-    "build": "npm run clean && npm run build:lib && npm run build:umd && npm run build:umd:min",
+    "build": "npm run clean && npm run build:lib && npm run build:umd && npm run build:umd:min && npm run generate-changelog",
     "generate-changelog": "grunt git_changelog",
-    "prepublish": "npm run clean && npm run build && npm run generate-changelog",
     "test": "npm run lint"
   },
   "engines": {
