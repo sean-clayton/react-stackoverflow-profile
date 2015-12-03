@@ -30,7 +30,8 @@
   ],
   "keywords": [
     "react",
-    "stackoverflow"
+    "stackoverflow",
+    "react-component"
   ],
   "license": "ISC",
   "repository": "sean-clayton/react-stackoverflow-profile",
