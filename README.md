@@ -51,10 +51,8 @@ import StackoverflowProfile from 'react-stackoverflow-profile';
 
 ## Useful Links
 
-- [Changelog]
 - [Contribution Guidelines]
 - [Authors]
 
-[Changelog]: /CHANGELOG.md
 [Contribution Guidelines]: /CONTRIBUTING.md
 [Authors]: /AUTHORS

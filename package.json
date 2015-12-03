@@ -10,8 +10,7 @@
     "build:lib": "babel src -d lib",
     "build:umd": "webpack src/index.js dist/react-stackoverflow-profile.js --config webpack.config.development.js",
     "build:umd:min": "webpack src/index.js dist/react-stackoverflow-profile.min.js --config webpack.config.production.js",
-    "build": "npm run clean && npm run build:lib && npm run build:umd && npm run build:umd:min && npm run generate-changelog",
-    "generate-changelog": "grunt git_changelog",
+    "build": "npm run clean && npm run build:lib && npm run build:umd && npm run build:umd:min",
     "test": "npm run lint"
   },
   "engines": {
@@ -48,8 +47,6 @@
     "eslint": "^1.10.2",
     "eslint-config-airbnb": "^1.0.2",
     "eslint-plugin-react": "^3.11.1",
-    "git-changelog": "^0.1.8",
-    "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "rimraf": "^2.4.4",
     "webpack": "^1.12.9"
