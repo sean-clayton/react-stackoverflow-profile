@@ -29,7 +29,7 @@ npm install --save react-stackoverflow-profile
 
 ```js
 // CommonJS
-var StackoverflowProfile = require('react-stackoverflow-profile')
+var StackoverflowProfile = require('react-stackoverflow-profile');
 
 // Module Bundler + ES2015
 import StackoverflowProfile from 'react-stackoverflow-profile';
@@ -38,7 +38,7 @@ import StackoverflowProfile from 'react-stackoverflow-profile';
 const { StackoverflowProfile } = StackoverflowProfile;
 
 // UMD + ES5
-var StackoverflowProfile = StackoverflowProfile.StackoverflowProfile
+var StackoverflowProfile = StackoverflowProfile.StackoverflowProfile;
 ```
 
 ### JSX
