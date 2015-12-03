@@ -1,6 +1,6 @@
 {
   "name": "react-stackoverflow-profile",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A React component that displays a Stack Overflow profile card",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
