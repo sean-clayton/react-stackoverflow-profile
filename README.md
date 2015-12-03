@@ -14,7 +14,7 @@ _A React component that displays a Stack Overflow profile card_
 ### [npmcdn](https://npmcdn.com)
 
 ```html
-<script src="https://npmcdn.com/react-stackoverflow-profile"></script>
+<script src="https://npmcdn.com/react-stackoverflow-profile/dist/react-stackoverflow-profile.min.js"></script>
 ```
 
 ### npm
