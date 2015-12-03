@@ -37,6 +37,12 @@ const StackoverflowProfile = require('react-stackoverflow-profile')
 import StackoverflowProfile from 'react-stackoverflow-profile';
 ```
 
+### UMD + ES6
+
+```js
+const { StackoverflowProfile } = StackoverflowProfile;
+```
+
 ### JSX
 
 ```html
