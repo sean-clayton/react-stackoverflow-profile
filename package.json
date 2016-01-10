@@ -7,11 +7,12 @@
   "scripts": {
     "clean": "rimraf lib dist",
     "lint": "eslint src/**",
-    "build:lib": "babel src -d lib",
+    "build:lib": "babel src -d lib -t umd",
     "build:umd": "webpack src/index.js dist/react-stackoverflow-profile.js --config webpack.config.development.js",
     "build:umd:min": "webpack src/index.js dist/react-stackoverflow-profile.min.js --config webpack.config.production.js",
     "build": "npm run clean && npm run build:lib && npm run build:umd && npm run build:umd:min",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": "~4.2.0 || ^5.0.0",
@@ -23,9 +24,10 @@
     "url": "https://seanclayton.me"
   },
   "files": [
-    "dist",
     "lib",
-    "src"
+    "LICENSE",
+    "README.md",
+    "AUTHORS"
   ],
   "keywords": [
     "react",
@@ -36,6 +38,10 @@
   "repository": "sean-clayton/react-stackoverflow-profile",
   "bugs": {
     "url": "https://github.com/sean-clayton/react-stackoverflow-profile/issues"
+  },
+  "peerDependencies": {
+    "axios": "^0.7.0",
+    "react": "^0.14.3"
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",
