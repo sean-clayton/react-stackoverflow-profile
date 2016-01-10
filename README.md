@@ -9,6 +9,15 @@ _A React component that displays a Stack Overflow profile card_
 [![Dependencies](https://img.shields.io/david/sean-clayton/react-stackoverflow-profile.svg?style=flat-square)](https://david-dm.org/sean-clayton/react-stackoverflow-profile)
 [![GitHub Issues](https://img.shields.io/github/issues/sean-clayton/react-stackoverflow-profile.svg?style=flat-square)](https://github.com/sean-clayton/react-stackoverflow-profile/issues?q=is%3Aopen+is%3Aissue)
 
+### NOTE!
+This component is _currently_ under **_extremely_** heavy development. Until
+this module hits 1.0, please do _not_ use this component in any production or
+production-like environment!
+
+#### With that being said...
+
+I am _still_ open to issues being submitted, etc!
+
 ## Installation
 
 ### [npmcdn](https://npmcdn.com)
