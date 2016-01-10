@@ -1,1 +1,3 @@
-export { default as StackoverflowProfile } from './StackoverflowProfile';
+import StackoverflowProfile from './StackoverflowProfile';
+
+export { StackoverflowProfile };

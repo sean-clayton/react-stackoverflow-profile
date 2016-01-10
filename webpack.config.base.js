@@ -8,10 +8,6 @@ module.exports = {
       }
     ]
   },
-  output: {
-    library: 'StackoverflowProfile',
-    libraryTarget: 'umd'
-  },
   resolve: {
     extensions: ['', '.js']
   }
